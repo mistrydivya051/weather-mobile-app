@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# Weather Forecast Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Project Description
+This is a simple **Weather Forecast Mobile App** made using **React Native, Expo, and TypeScript**.  
+The app lets users search for a city and see the **current weather** and a **5-day weather forecast** using the **OpenWeatherMap API**.
 
-## Get started
+It shows temperature, weather condition, humidity, wind speed, and date.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
+- Default city: Toronto
+- Search weather by city name
+- Current weather display
+- 5-day weather forecast
+- Weather icons
+- Shows date and day
+- Simple and easy-to-use mobile design
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Technologies Used
+- React Native
+- Expo
+- TypeScript
+- OpenWeatherMap API
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How to Run the App
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+### Step 1: Clone the Repository
+```
+git clone https://github.com/mistrydivya051/weather-mobile-app.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Step 2: Install Dependencies
+```
+npm install
+```
 
-## Learn more
+### Step 3: Start the App
+```
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### Step 4: Open the App
+- Android Emulator
+- iOS Simulator
+- Expo Go app on mobile
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## API Used
+OpenWeatherMap API  
+https://openweathermap.org/
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Folder Structure
+```
+app/
+  - index.tsx
+
+components/
+  - WeatherCard.tsx
+  - ForecastCard.tsx
+  - SearchBar.tsx
+
+types/
+  - weatherApi.ts
+```
+
+---
+
+## Notes
+- Temperature is shown in Celsius.
+- Data is fetched using the Fetch API.
+- This project was created for learning React Native.
+# weather-mobile-app

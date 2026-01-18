@@ -1,0 +1,15 @@
+* What I Learned
+
+In this project, I learned how to build a mobile app using React Native and Expo. 
+I learned how to fetch data from an API, use TypeScript, interfaces, and create reusable components.
+
+* Challenges Faced
+
+-   Understanding API response structure
+-   Filtering 5-day forecast data
+-   Managing loading state
+-   Formatting date using JavaScript
+
+* Conclusion
+
+This project helped me understand mobile app development and API integration.
