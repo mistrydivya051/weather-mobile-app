@@ -77,4 +77,3 @@ types/
 - Temperature is shown in Celsius.
 - Data is fetched using the Fetch API.
 - This project was created for learning React Native.
-# weather-mobile-app
